@@ -158,43 +158,43 @@ def configurar_pagina() -> None:
                 transition: all 0.15s ease !important;
             }
             section[data-testid="stSidebar"] div[role="radiogroup"] > label:hover {
-                background-color: #EFF6FF !important;
-                border-color: #2563EB !important;
+                background-color: #1E293B !important;
+                border-color: #0F172A !important;
             }
             section[data-testid="stSidebar"] div[role="radiogroup"] > label:hover p {
-                color: #1D4ED8 !important;
+                color: #FFFFFF !important;
             }
             section[data-testid="stSidebar"] div[role="radiogroup"] > label > div:first-child {
                 display: none !important;
             }
             section[data-testid="stSidebar"] div[role="radiogroup"] > label:has(input:checked) {
-                background-color: #2563EB !important;
-                border-color: #2563EB !important;
+                background-color: #0F172A !important;
+                border-color: #0F172A !important;
             }
             section[data-testid="stSidebar"] div[role="radiogroup"] > label:has(input:checked) p {
                 color: #FFFFFF !important;
                 font-weight: 700 !important;
             }
-            /* Hover e seleção em Azul nos filtros (Selectbox / Dropdown) */
+            /* Hover e seleção em Preto nos filtros (Selectbox / Dropdown) */
             div[data-baseweb="select"] > div {
                 border-color: #CBD5E1 !important;
                 transition: border-color 0.15s ease, box-shadow 0.15s ease !important;
             }
             div[data-baseweb="select"] > div:hover {
-                border-color: #2563EB !important;
+                border-color: #0F172A !important;
             }
             div[data-baseweb="select"] > div:focus-within {
-                border-color: #2563EB !important;
-                box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2) !important;
+                border-color: #0F172A !important;
+                box-shadow: 0 0 0 2px rgba(15, 23, 42, 0.2) !important;
             }
             ul[data-testid="stSelectboxVirtualDropdown"] li[role="option"]:hover,
             li[role="option"]:hover {
-                background-color: #DBEAFE !important;
-                color: #1E3A8A !important;
+                background-color: #1E293B !important;
+                color: #FFFFFF !important;
             }
             ul[data-testid="stSelectboxVirtualDropdown"] li[role="option"][aria-selected="true"],
             li[role="option"][aria-selected="true"] {
-                background-color: #2563EB !important;
+                background-color: #0F172A !important;
                 color: #FFFFFF !important;
                 font-weight: 600 !important;
             }
